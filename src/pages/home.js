@@ -15,7 +15,7 @@ const Home = () => {
       <FeaturedProperties />
       <Swipper />
       <FindPerfectHome/>
-      <Review/>
+      <Review/><p>welcome</p>
       
     </div>
   );
