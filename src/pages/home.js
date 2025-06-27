@@ -16,7 +16,7 @@ const Home = () => {
       <Swipper />
       <FindPerfectHome/>
       <Review/>
-      <p>changed in main</p>
+      <p>changed in saravanan</p>
     </div>
   );
 };
