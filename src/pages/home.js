@@ -17,7 +17,7 @@ const Home = () => {
       <FindPerfectHome/>
       <Review/>
       <p>changed in saravanan</p>
-      <p>push in saravanan branch</p>
+      <p>push in ganesh</p>
     </div>
   );
 };
