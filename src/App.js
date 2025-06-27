@@ -1,24 +1,30 @@
-import logo from './logo.svg';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import Home from './pages/home'
+import Swipper from "./Component/swipper";
+import WorkWithUs from './Component/WorkWithUs'
+import Main from './Component/main'
+import FindPerfectHome from './Component/FindPerfectHome'
+import FeaturedProperties from './Component/FeaturedProperties'
+import BackGroundImg from './Component/BackGroundImg'
+import Layout from './Component/layout'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<><Layout /></>} >
+        <Route index element={<Home/>}/>
+        <Route path='/swipper' element={<Swipper />} />
+        <Route path='/workwithus' element={<WorkWithUs />} />
+        <Route path='/main' element={<Main />} />
+        <Route path='/findperfect' element={<FindPerfectHome />} />
+        <Route path='/featuredproperties' element={<FeaturedProperties />} />
+        <Route path='/backgroundimg' element={<BackGroundImg />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

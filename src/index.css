@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.swiper-pagination-bullet-active {
+  
+  width: 16px;         
+  height: 16px;
+}
+
+
+.swiper-pagination-bullet {
+  width: 14px;        
+  height: 14px;     
+  background-color: #ccc !important; 
+  opacity: 1;
+  margin: 0 6px;     
+  border-radius: 50%;  
+}
