@@ -16,7 +16,7 @@ const Home = () => {
       <Swipper />
       <FindPerfectHome/>
       <Review/>
-      
+      <p>changed in saravanan</p>
     </div>
   );
 };
