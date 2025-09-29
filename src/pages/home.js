@@ -14,10 +14,8 @@ const Home = () => {
       <WorkWithUs />
       <FeaturedProperties />
       <Swipper />
-      <FindPerfectHome/>
-      <Review/>
-      <p>changed in saravanan</p>
-      <p>push in ganesh</p>
+      <FindPerfectHome />
+      <Review />
     </div>
   );
 };
