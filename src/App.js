@@ -4,7 +4,6 @@ import './App.css';
 import Home from './pages/home'
 import Swipper from "./Component/swipper";
 import WorkWithUs from './Component/WorkWithUs'
-import Main from './Component/main'
 import FindPerfectHome from './Component/FindPerfectHome'
 import FeaturedProperties from './Component/FeaturedProperties'
 import BackGroundImg from './Component/BackGroundImg'
@@ -15,13 +14,12 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<><Layout /></>} >
-        <Route index element={<Home/>}/>
-        <Route path='/swipper' element={<Swipper />} />
-        <Route path='/workwithus' element={<WorkWithUs />} />
-        <Route path='/main' element={<Main />} />
-        <Route path='/findperfect' element={<FindPerfectHome />} />
-        <Route path='/featuredproperties' element={<FeaturedProperties />} />
-        <Route path='/backgroundimg' element={<BackGroundImg />} />
+          <Route index element={<Home />} />
+          <Route path='/swipper' element={<Swipper />} />
+          <Route path='/workwithus' element={<WorkWithUs />} />
+          <Route path='/findperfect' element={<FindPerfectHome />} />
+          <Route path='/featuredproperties' element={<FeaturedProperties />} />
+          <Route path='/backgroundimg' element={<BackGroundImg />} />
         </Route>
       </Routes>
     </BrowserRouter>
