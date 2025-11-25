@@ -42,18 +42,18 @@ const CustomNavbar = () => {
         }}
       >
         <Container fluid>
-          {/* Left: Logo + Brand */}
+   
           <Navbar.Brand href="#home" className="d-flex align-items-center gap-2 fw-bold fs-4 mb-0">
             <img src={NavImg} alt="Logo" style={{ width: "40px", height: "30px" }} />
             JustHome
           </Navbar.Brand>
 
-          {/* Toggle Button */}
+   
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
-          {/* Collapse Section */}
+
           <Navbar.Collapse id="basic-navbar-nav">
-            {/* Nav Links */}
+
             <Nav className="mx-auto d-flex flex-column flex-lg-row gap-3 gap-md-2 gap-lg-4 align-items-center justify-content-center">
               <NavDropdown title="Home" id="nav-home" />
               <NavDropdown title="Listing" id="nav-listing" />

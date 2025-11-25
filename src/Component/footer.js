@@ -27,7 +27,7 @@ const Footer = () => {
                 <div className="row text-center text-md-start gap-4">
 
 
-                    <div className="col-12 col-md-3">
+                    <div className="col-6 col-md-3 my-5 my-md-0">
                         <h6>Subscribe</h6>
                         <div className="input-group mb-2">
                             <p>Your e-mail</p>
@@ -39,7 +39,7 @@ const Footer = () => {
                     </div>
 
 
-                    <div className="col-6 col-md-2">
+                    <div className="col-6 col-md-2 my-5 my-md-0">
                         <h6>Discover</h6>
                         <ul className="list-unstyled small">
                             <li>Miami</li>
@@ -52,7 +52,7 @@ const Footer = () => {
                     </div>
 
 
-                    <div className="col-6 col-md-2">
+                    <div className="col-6 col-md-2 mb-5 mb-md-0">
                         <h6>Quick Links</h6>
                         <ul className="list-unstyled small">
                             <li>About</li>
@@ -66,7 +66,7 @@ const Footer = () => {
                     </div>
 
 
-                    <div className="col-6 col-md-2">
+                    <div className="col-6 col-md-2 mb-md-0">
                         <h6>Contact Us</h6>
                         <ul className="list-unstyled small">
                             <li>hi@justhome.com</li>
@@ -75,14 +75,14 @@ const Footer = () => {
                     </div>
 
 
-                    <div className="col-6 col-md-3">
+                    <div className="col-6 col-md-3 mb-md-0">
                         <h6>Our Address</h6>
                         <ul className="list-unstyled small">
                             <li>99 Fifth Avenue, 3rd Floor</li>
                             <li>San Francisco, CA 1980</li>
                         </ul>
                     </div>
-                  
+
 
                 </div>
             </div>
