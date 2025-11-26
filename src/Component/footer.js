@@ -24,7 +24,7 @@ const Footer = () => {
                 </div>
 
 
-                <div className="row text-center text-md-start gap-4">
+                <div className="row text-center text-md-start gap-md-4">
 
 
                     <div className="col-6 col-md-3 my-5 my-md-0">
